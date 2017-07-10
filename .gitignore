@@ -9,3 +9,6 @@ npm-debug.log*
 
 # Compiled dependencies
 build/
+
+# ide
+.idea

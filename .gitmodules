@@ -1,4 +1,4 @@
 [submodule "vendor/cmark"]
 	path = vendor/cmark
-	url = https://github.com/github/cmark.git
+	url = https://github.com/killa123/cmark.git
 	branch = master

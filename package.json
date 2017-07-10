@@ -1,19 +1,27 @@
 {
   "name": "cmark",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node.js wrapper for GitHub's fork of cmark",
   "main": "index.js",
   "repository": "thomasjo/node-cmark",
+  "scripts": {
+    "install": "./node_modules/cmake-js/bin/cmake-js rebuild"
+  },
   "keywords": [
     "cmark",
     "commonmark",
     "markdown",
     "gfm"
   ],
-  "author": "Thomas Johansen <thomasjo@gmail.com>",
+  "author": "Thomas Johansen <thomasjo@gmail.com> killa <killa07071201@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "bindings": "^1.2.1",
+    "cmake-js": "^3.5.0",
     "nan": "^2.6.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2",
+    "should": "^11.2.1"
   }
 }
