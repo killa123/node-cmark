@@ -1,6 +1,6 @@
 {
   "name": "node-cmark",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Node.js wrapper for GitHub's fork of cmark",
   "main": "index.js",
   "directories": {
@@ -17,7 +17,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "install": "./node_modules/cmake-js/bin/cmake-js rebuild"
+    "install": "cmake-js rebuild"
   },
   "repository": {
     "type": "git",

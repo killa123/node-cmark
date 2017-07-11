@@ -20,6 +20,6 @@ npm install --save node-cmark
 
 const cmark = require('node-cmark');
 const markdown = '# h1 title';
-console.log(cmark.markdown2html(cmark));//print <h1>h1 title</h1>
+console.log(cmark.markdown2html(markdown));//print <h1>h1 title</h1>
 
 ```
