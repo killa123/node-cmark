@@ -7,20 +7,20 @@ const cmark = require('../index');
 describe('test cmark', () => {
   describe('empty string', () => {
     it('should success', () => {
-      console.log(cmark.toHtml(''))
+      cmark.markdown2html('');
     });
   });
 
   describe('null', () => {
     it('should success', () => {
-      cmark.toHtml(null);
+      cmark.markdown2html(null);
     });
   });
 
   describe('undefined', () => {
     it('should success', () => {
       let a;
-      cmark.toHtml(a);
+      cmark.markdown2html(a);
     });
   });
 
@@ -38,7 +38,7 @@ content content content
 
 ![img1](https://www.w3schools.com/css/paris.jpg "imgtitle" "500x500") 
 `;
-      console.log(cmark.toHtml(a));
+      cmark.markdown2html(a, 1);
     });
   });
 });
